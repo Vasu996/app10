@@ -1,6 +1,41 @@
 .parent-container {
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
-  }
-  
+  padding: 25px;
+  background: linear-gradient(135deg, #f0f9ff, #cce5ff);
+  border: 2px solid #99ccff;
+  border-radius: 12px;
+  width: 450px;
+  margin: 20px auto;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.parent-container h1 {
+  font-size: 28px;
+  color: #004080;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.message-box {
+  padding: 15px;
+  background-color: #e6f7ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-box p {
+  font-size: 16px;
+  color: #333;
+}
+
+.message-box p strong {
+  color: #0066cc;
+}
+
+app-child {
+  display: block;
+  margin-top: 20px;
+}
